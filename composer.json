@@ -1,0 +1,19 @@
+{
+    "name": "carlos/google-cloud-script",
+    "description": "Test Script",
+    "type": "project",
+    "require": {
+        "google/apiclient": "^2.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carlos\\GoogleCloudScript\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Veizaga",
+            "email": "carlosveizaga.jcvc@gmail.com"
+        }
+    ]
+}
